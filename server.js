@@ -26,7 +26,7 @@ var articles = {
     content:`
                 <p>This is my second Article Content.</p>
     `},
-    'articl-three':{
+    'article-three':{
     title:'Article Three | Pranshu Pathak',
     heading:'Article Three',
     date:'Sep 5, 2016',
