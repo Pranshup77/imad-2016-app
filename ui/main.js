@@ -8,7 +8,7 @@ element.innerHTML = 'New value';
 //move the image
 var img = document.getElementById('madi');
 img.onClick = function(){
-    var interval = setInterval(moveLeft,100);
+    var interval = setInterval(moveReft,100);
     //1st line then above line 
     //img.style.marginLeft = '100px';
 };
