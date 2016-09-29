@@ -13,7 +13,7 @@ function moveRight(){
     img.style.marginLeft + 'px';
 }
 img.onClick = function(){
-    var interval = setInterval(moveReft,50);
+    var interval = setInterval(moveRight,50);
     //1st line then above line 
     //img.style.marginLeft = '100px';
 };
