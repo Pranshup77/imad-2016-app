@@ -9,11 +9,11 @@ element.innerHTML = 'New value';
 var img = document.getElementById('madi');
 var margingLeft = 0;
 function moveRight(){
-    marginLeft = marginLeft+10;
+    marginLeft = marginLeft+1;
     img.style.marginLeft + 'px';
 }
 img.onClick = function(){
-    var interval = setInterval(moveReft,100);
+    var interval = setInterval(moveReft,50);
     //1st line then above line 
     //img.style.marginLeft = '100px';
 };
